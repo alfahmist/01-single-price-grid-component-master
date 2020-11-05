@@ -20,6 +20,7 @@ a {
   background-color: white;
   padding: 10px 30px;
   color: hsl(218, 22%, 67%);
+  border-radius: 20px 20px 0 0;
 }
 #one h1 {
   font-weight: 700;
@@ -69,6 +70,7 @@ a {
   padding: 10px 30px;
   background-color: hsl(179, 52%, 57%);
   color: white;
+  border-radius: 0 0 20px 20px;
 }
 #three h1 {
   font-weight: 700;
@@ -89,5 +91,13 @@ a {
     grid-template-areas:
       "one one"
       "two three";
+  }
+
+  #two {
+    border-radius: 0 0 0 20px;
+  }
+
+  #three {
+    border-radius: 0 0 20px 0;
   }
 }
