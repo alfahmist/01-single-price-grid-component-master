@@ -1,0 +1,93 @@
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  padding: 20px;
+}
+
+ul {
+  padding-left: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+#one {
+  grid-area: one;
+  background-color: white;
+  padding: 10px 30px;
+  color: hsl(218, 22%, 67%);
+}
+#one h1 {
+  font-weight: 700;
+  color: hsl(179, 62%, 43%);
+}
+#one .offer {
+  color: hsl(71, 73%, 54%);
+}
+
+#two {
+  grid-area: two;
+  background-color: hsl(179, 62%, 43%);
+  padding: 10px 30px;
+  box-sizing: border-box;
+  color: white;
+}
+
+#two .price {
+  color: inherit;
+  font-size: 2em;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#two .month {
+  vertical-align: middle;
+  font-size: 0.5em;
+  color: hsl(0, 0%, 83%);
+}
+
+#two a {
+  text-align: center;
+  line-height: 40px;
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  box-shadow: 2px 4px 5px hsl(0, 0%, 35%);
+}
+
+#three {
+  grid-area: three;
+  padding: 10px 30px;
+  background-color: hsl(179, 52%, 57%);
+  color: white;
+}
+#three h1 {
+  font-weight: 700;
+}
+#three li {
+  font-weight: 400;
+  margin-bottom: 5px;
+  color: #eee;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    margin: 0 auto;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "one one"
+      "two three";
+  }
+}
