@@ -1,3 +1,7 @@
+# Result
+
+https://htmlpreview.github.io/?https://github.com/alfahmist/01-single-price-grid-component-master/blob/master/design/index.html
+
 # Frontend Mentor - Single Price Grid Component
 
 ![Design preview for the Single Price Grid Component coding challenge](./design/desktop-preview.jpg)
